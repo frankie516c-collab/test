@@ -1,6 +1,6 @@
 # 둘째날
 
-URL
+1) URL
 주소
 http: 보안 더 약함, https: 보안 좀 더 강함
 localhost:8080 나의 IP (127.0.0.1)
@@ -9,7 +9,7 @@ URI
 파일의 위치까지 데려다줌 (e.g., http://127.0.0.1:5500/workspaces/WEB_STUDY-study/frontend/html/study01/index.html)
 *.html이라는 '파일명'까지 우리를 데려다주는 주소이다
 
-HTML 할 때
+2) HTML 할 때
 <h1 class="h1" style="text-align: end;">
 HTML 문서 소개
 이 부분이 가운데 정렬로 되는 이유는 
@@ -18,7 +18,9 @@ h1, h2, h3, h4, h5, h6 { margin: 0; padding: 10px 0; font-weight: normal; }
 .h1 { text-align: center !important; }
 코드에 !important; 라고 되어 있다. 남발하면 안되는 우선순위 설정 값
 
-얘에 바로 style을 준 이유는 p태그가 스타일에 더 없어서 (p태그 이용하는게 이 부분 뿐)
+3) 
+
+4) 얘에 바로 style을 준 이유는 p태그가 스타일에 더 없어서 (p태그 이용하는게 이 부분 뿐)
 </h2>
 <p style="padding: 0 30px;">
 HTML(하이퍼텍스트 마크업 언어)은 웹페이지의 구조를 만드는 데 사용되는 표준 마크업 언어입니다.
