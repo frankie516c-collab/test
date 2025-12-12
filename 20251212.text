@@ -202,3 +202,55 @@ HTML(하이퍼텍스트 마크업 언어)은 웹페이지의 구조를 만드는
     </div>
 </body>
 </html>
+
+10) 응용
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {box-sizing: boarder-box;}
+    html, body { margin: 0; padding: 0}
+    .body {display: flex; width: 100%; height: calc(100vh / 4);} 
+    .body div {flex-grow: 1;}
+    .bgl {background-color: creme;}
+    .bg2 {background-color: black;}
+  </style>
+</head>
+ <body> 
+    <div class="body"> 
+        <div class="bgl"></div> 
+        <div class="bg2"></div>
+        <div class="bgl"></div>
+        <div class="bg2"></div>
+        <div class="bgl"></div>
+        <div class="bg2"></div>
+    </div>
+    <div class="body">
+        <div class="bg2"></div>
+        <div class="bgl"></div>
+        <div class="bg2"></div>
+        <div class="bgl"></div>
+        <div class="bg2"></div>
+        <div class="bgl"></div>
+    </div>
+    <div class="body"> 
+        <div class="bgl"></div> 
+        <div class="bg2"></div>
+        <div class="bgl"></div>
+        <div class="bg2"></div>
+        <div class="bgl"></div>
+        <div class="bg2"></div>
+    </div>
+    <div class="body">
+        <div class="bg2"></div>
+        <div class="bgl"></div>
+        <div class="bg2"></div>
+        <div class="bgl"></div>
+        <div class="bg2"></div>
+        <div class="bgl"></div>
+    </div>
+</body>
+</html>
