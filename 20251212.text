@@ -162,3 +162,43 @@ HTML(하이퍼텍스트 마크업 언어)은 웹페이지의 구조를 만드는
  또, div 부모한테 주는거랑 자식한테 주는거랑 다름
 
  flex는 메뉴 다룰 때 씀 (e.g., 네이버 포털창 밑 메일/카페/블로그 등)\
+
+9) div 이용해서 체크보드 만들기
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {box-sizing: boarder-box;}
+    div {width: 100px; height: 100px}
+    .body {display: flex;}
+    .body div {flex-grow: 1;}
+    .bgl {background-color: aqua;}
+    .bg2 {background-color: brown;}
+  </style>
+</head>
+ <body>
+    <div class="body">
+        <div class="bgl"></div>
+        <div class="bg2"></div>
+        <div class="bgl"></div>
+    </div>
+    <div class="body">
+        <div class="bg2"></div>
+        <div class="bgl"></div>
+        <div class="bg2"></div>
+    </div>
+    <div class="body">
+        <div class="bgl"></div>
+        <div class="bg2"></div>
+        <div class="bgl"></div>
+    </div>
+    <div class="body">
+        <div class="bg2"></div>
+        <div class="bgl"></div>
+        <div class="bg2"></div>
+    </div>
+</body>
+</html>
