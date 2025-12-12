@@ -150,3 +150,15 @@ HTML(하이퍼텍스트 마크업 언어)은 웹페이지의 구조를 만드는
   </div>
 </body>
 </html>
+
+8) flex 응용
+ ul { display: flex; gap: 5px; flex-direction: row-reverse;
+ row-reverse / colomn-reverse 응용
+
+ display는 list item으로 기재되고
+ div는 block으로 기재되기 때문에
+ 적용 유무가 달라짐
+
+ 또, div 부모한테 주는거랑 자식한테 주는거랑 다름
+
+ flex는 메뉴 다룰 때 씀 (e.g., 네이버 포털창 밑 메일/카페/블로그 등)\
